@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  Data-extraction rules (Android 12+): same exclusions as backup_rules.xml,
+  for both cloud backup and device transfer.
+-->
+<data-extraction-rules>
+    <cloud-backup>
+        <exclude domain="sharedpref" path="osnmz_keys.xml" />
+        <exclude domain="file" path="jobs.json" />
+    </cloud-backup>
+    <device-transfer>
+        <exclude domain="sharedpref" path="osnmz_keys.xml" />
+        <exclude domain="file" path="jobs.json" />
+    </device-transfer>
+</data-extraction-rules>

@@ -1,3 +1,9 @@
+## Download
+
+**[Download APK 0.1.1 (2.82 MB)](https://github.com/alawymuhsin/osnm-z/releases/download/v0.1.1/osnm-z-multijob-debug-0.1.1.apk)**
+
+Debug test build only, not for Play Store distribution. See [Release v0.1.1](https://github.com/alawymuhsin/osnm-z/releases/tag/v0.1.1) for full notes.
+
 # OSNM-Z Multi-Job — Android
 
 A native Android port (Kotlin + View framework, no Compose) of the Python CLI `zunmax/osnm-z`

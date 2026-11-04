@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  Full-backup rules: the encrypted key store is EXCLUDED from backup.
+  osnmz_keys.xml is the SharedPreferences file holding Keystore-encrypted
+  private keys. Job metadata (jobs.json) is also excluded, so a backup
+  can never be used to reconstruct a job's wallet on another device.
+-->
+<full-backup-content>
+    <exclude domain="sharedpref" path="osnmz_keys.xml" />
+    <exclude domain="file" path="jobs.json" />
+</full-backup-content>
